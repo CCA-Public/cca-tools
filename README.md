@@ -11,3 +11,5 @@ Digital archives processing tools
 ## Installation  
 In Bitcurator v1.7.106+:  
 `sudo bash install.sh`  
+
+If icons do not appear correctly in the "CCA Tools" folder after installation, right-click on each, select Properties, and mark the files as executable.  
