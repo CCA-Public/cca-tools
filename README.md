@@ -1,6 +1,8 @@
 # CCA Tools
 Digital archives processing tools
 
+**NOTE: These tools are currently in dev and should not be considered production-ready without testing**
+
 ## Tools
 
 * **[Disk Image Processor](https://github.com/timothyryanwalsh/cca-diskimageprocessor):** Creates ready-to-ingest SIPs from a directory of disk images and related files and a pre-populated archival description spreadsheet.   
@@ -9,7 +11,7 @@ Digital archives processing tools
 * **[DFXML Reader](https://github.com/timothyryanwalsh/dfxml-reader):** Creates easy-to-read report of files recorded in a DFXML file, with a focus on MAC dates.  
 
 ## Installation  
-In Bitcurator v1.7.106+:  
+In Bitcurator v1.8.0+:  
 `sudo bash install.sh`  
 
 If icons do not appear correctly in the "CCA Tools" folder after installation, right-click on each, select Properties, and mark the files as executable.  
