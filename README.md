@@ -1,5 +1,5 @@
 # CCA Tools
-Digital archives processing tools
+Digital archives processing tools intended for use in BitCurator
 
 **NOTE: These tools are currently in dev and should not be considered production-ready without testing**
 
