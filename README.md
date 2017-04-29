@@ -14,4 +14,4 @@ Digital archives processing tools intended for use in BitCurator
 In Bitcurator v1.8.0+:  
 `sudo bash install.sh`  
 
-If icons do not appear correctly in the "CCA Tools" folder after installation, right-click on each of the ".Desktop" files, select Permissions, and check "Allow excuting file as program".  
+If icons do not appear correctly in the "CCA Tools" folder after installation, right-click on each of the ".desktop" files, select Permissions, and check "Allow excuting file as program".  
