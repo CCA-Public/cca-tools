@@ -1,5 +1,5 @@
 # CCA Tools
-Digital archives processing tools intended for use in BitCurator
+Digital archives processing tools intended for use in [BitCurator](https://wiki.bitcurator.net/index.php?title=BitCurator_Environment), an open source Ubuntu-derived digital forensics environment for digital forensics and digital archiving.
 
 **NOTE: These tools are currently in dev and should not be considered production-ready without testing**
 
