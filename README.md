@@ -11,7 +11,7 @@ Digital archives processing tools intended for use in BitCurator
 * **[DFXML Reader](https://github.com/timothyryanwalsh/dfxml-reader):** Creates easy-to-read report of files recorded in a DFXML file, with a focus on MAC dates.  
 
 ## Installation  
-In Bitcurator v1.8.0+:  
+In BitCurator v1.8.0+:  
 `sudo bash install.sh`  
 
 If icons do not appear correctly in the "CCA Tools" folder after installation, right-click on each of the ".desktop" files, select Permissions, and check "Allow excuting file as program".  
