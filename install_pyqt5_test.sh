@@ -39,7 +39,6 @@ mkdir /mnt/diskid
 
 # Cleanup folders
 echo "Cleaning up folders..."
-rm -rf /home/bcadmin/brunnhilde-gui
 rm -rf /home/bcadmin/cca-diskimageprocessor
 rm -rf /home/bcadmin/cca-folderprocessor
 rm -rf /home/bcadmin/dfxml-reader
