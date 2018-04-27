@@ -9,5 +9,6 @@ Digital archives processing tools intended for use in [BitCurator](https://wiki.
 
 ## Installation  
 In BitCurator v1.8.0+:  
+`git clone https://github.com/CCA-Public/cca-tools && cd cca-tools`  
 `chmod u+x install.sh`  
 `sudo ./install.sh`  
