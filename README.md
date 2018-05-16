@@ -12,3 +12,6 @@ In BitCurator v1.8.0+:
 `git clone https://github.com/CCA-Public/cca-tools && cd cca-tools`  
 `chmod u+x install.sh`  
 `sudo ./install.sh`  
+
+## PyQt4/5 issues
+Please note that the v1.0.0 release of the CCA Tools use PyQt5 and Python 3 exclsuively. Installation of PyQt5 may cause issues with existing PyQt4 programs in BitCurator. For links PyQt4 versions of the programs that will not interfere with the functionality of the built-in BitCurator reporting tool GUIs, see the Installation section of the README for each individual repository.
