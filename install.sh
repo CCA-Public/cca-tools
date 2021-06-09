@@ -6,7 +6,7 @@
 
 # Install PyQt5
 echo "Installing PyQt5..."
-pip3 install pyqt5
+python3 -m pip install pyqt5
 
 # Force Siegfried to make single identifications
 roy build -multi 0
@@ -37,7 +37,9 @@ chmod u+x install.sh
 
 # Create /mnt/diskid/ directory for processing UDF and HFS disks with Disk Image Processor
 echo "Creating /mnt/diskid..."
-mkdir /mnt/diskid
+if [ ! -d /mnt/diskid ]; then
+  mkdir /mnt/diskid
+fi
 
 # Cleanup folders
 echo "Cleaning up folders..."
