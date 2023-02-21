@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### Script to install CCA Tools in BitCurator
-# Tim Walsh - April 2018
+# Tessa Walsh - April 2018
 # Run as sudo
 
 # Install PyQt5
