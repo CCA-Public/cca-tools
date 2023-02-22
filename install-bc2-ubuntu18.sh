@@ -1,7 +1,7 @@
 #!/bin/bash
 
-### Script to install CCA Tools in BitCurator 4/Ubuntu 22
-# Tessa Walsh - 2023
+### Script to install CCA Tools in BitCurator 2/Ubuntu 18
+# Tessa Walsh - April 2018
 # Run as sudo
 
 # Install PyQt5
@@ -16,21 +16,21 @@ cd /home/bcadmin
 echo "Installing Disk Image Processor..."
 git clone https://github.com/CCA-Public/diskimageprocessor
 cd /home/bcadmin/diskimageprocessor
-./install.sh
+./install-bc2-ubuntu18.sh
 
 # Download and install CCA Folder Processor
 cd /home/bcadmin
 echo "Installing Folder Processor..."
 git clone https://github.com/CCA-Public/folderprocessor
 cd /home/bcadmin/folderprocessor
-./install.sh
+./install-bc2-ubuntu18.sh
 
 # Download and install CCA SIP Creator
 cd /home/bcadmin
 echo "Installing SIP Creator..."
 git clone https://github.com/CCA-Public/sipcreator
 cd /home/bcadmin/sipcreator
-./install.sh
+./install-bc2-ubuntu18.sh
 
 # Create /mnt/diskid/ directory for processing UDF and HFS disks with Disk Image Processor
 echo "Creating /mnt/diskid..."
