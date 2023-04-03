@@ -44,8 +44,5 @@ rm -rf /home/bcadmin/diskimageprocessor
 rm -rf /home/bcadmin/folderprocessor
 rm -rf /home/bcadmin/sipcreator
 
-# Fix permissions for launchers
-chmod a+x -R "/home/bcadmin/Desktop/CCA Tools"
-
 # Echo done
 echo "Finished! CCA Tools installed in /home/bcadmin/Desktop/CCA Tools."
