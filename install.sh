@@ -12,29 +12,23 @@ python3 -m pip install pyqt5
 roy build -multi 0
 
 # Download and install CCA Disk Image Processor
-cd /home/bcadmin
 echo "Installing Disk Image Processor..."
-git clone https://github.com/CCA-Public/diskimageprocessor
-cd /home/bcadmin/diskimageprocessor
-sudo ./install.sh
+git clone https://github.com/CCA-Public/diskimageprocessor /home/bcadmin/diskimageprocessor
+sudo /home/bcadmin/diskimageprocessor/install.sh
 
 # Download and install CCA Folder Processor
-cd /home/bcadmin
 echo "Installing Folder Processor..."
-git clone https://github.com/CCA-Public/folderprocessor
-cd /home/bcadmin/folderprocessor
-sudo ./install.sh
+git clone https://github.com/CCA-Public/folderprocessor /home/bcadmin/folderprocessor
+sudo /home/bcadmin/folderprocessor/install.sh
 
 # Download and install CCA SIP Creator
-cd /home/bcadmin
 echo "Installing SIP Creator..."
-git clone https://github.com/CCA-Public/sipcreator
-cd /home/bcadmin/sipcreator
-sudo ./install.sh
+git clone https://github.com/CCA-Public/sipcreator /home/bcadmin/sipcreator
+sudo /home/bcadmin/sipcreator/install.sh
 
 # Create /mnt/diskid/ directory for processing UDF and HFS disks with Disk Image Processor
-echo "Creating /mnt/diskid..."
 if [ ! -d /mnt/diskid ]; then
+  echo "Creating /mnt/diskid..."
   mkdir /mnt/diskid
 fi
 
@@ -45,4 +39,4 @@ rm -rf /home/bcadmin/folderprocessor
 rm -rf /home/bcadmin/sipcreator
 
 # Echo done
-echo "Finished! CCA Tools installed in /home/bcadmin/Desktop/CCA Tools."
+echo "Finished! CCA Tools installed and ready to launch from Applications menu."
