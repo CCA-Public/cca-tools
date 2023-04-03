@@ -16,21 +16,21 @@ cd /home/bcadmin
 echo "Installing Disk Image Processor..."
 git clone https://github.com/CCA-Public/diskimageprocessor
 cd /home/bcadmin/diskimageprocessor
-./install.sh
+sudo ./install.sh
 
 # Download and install CCA Folder Processor
 cd /home/bcadmin
 echo "Installing Folder Processor..."
 git clone https://github.com/CCA-Public/folderprocessor
 cd /home/bcadmin/folderprocessor
-./install.sh
+sudo ./install.sh
 
 # Download and install CCA SIP Creator
 cd /home/bcadmin
 echo "Installing SIP Creator..."
 git clone https://github.com/CCA-Public/sipcreator
 cd /home/bcadmin/sipcreator
-./install.sh
+sudo ./install.sh
 
 # Create /mnt/diskid/ directory for processing UDF and HFS disks with Disk Image Processor
 echo "Creating /mnt/diskid..."
