@@ -11,25 +11,24 @@ python3 -m pip install pyqt5
 # Force Siegfried to make single identifications
 roy build -multi 0
 
+cd /home/bcadmin
+
 # Download and install CCA Disk Image Processor
 echo "Installing Disk Image Processor..."
-git clone https://github.com/CCA-Public/diskimageprocessor /home/bcadmin/diskimageprocessor
-cd /home/bcadmin/diskimageprocessor
-sudo ./install.sh
+git clone https://github.com/CCA-Public/diskimageprocessor
+cd diskimageprocessor && sudo ./install
 cd /home/bcadmin
 
 # Download and install CCA Folder Processor
 echo "Installing Folder Processor..."
-git clone https://github.com/CCA-Public/folderprocessor /home/bcadmin/folderprocessor
-cd /home/bcadmin/folderprocessor
-sudo ./install.sh
+git clone https://github.com/CCA-Public/folderprocessor
+cd folderprocessor && sudo ./install.sh
 cd /home/bcadmin
 
 # Download and install CCA SIP Creator
 echo "Installing SIP Creator..."
-git clone https://github.com/CCA-Public/sipcreator /home/bcadmin/sipcreator
-cd /home/bcadmin/sipcreator
-sudo ./install.sh
+git clone https://github.com/CCA-Public/sipcreator
+cd /home/bcadmin/sipcreator && sudo ./install.sh
 cd /home/bcadmin
 
 # Create /mnt/diskid/ directory for processing UDF and HFS disks with Disk Image Processor
