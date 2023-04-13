@@ -28,7 +28,7 @@ cd /home/bcadmin
 # Download and install CCA SIP Creator
 echo "Installing SIP Creator..."
 git clone https://github.com/CCA-Public/sipcreator
-cd /home/bcadmin/sipcreator && sudo ./install.sh
+cd sipcreator && sudo ./install.sh
 cd /home/bcadmin
 
 # Create /mnt/diskid/ directory for processing UDF and HFS disks with Disk Image Processor
