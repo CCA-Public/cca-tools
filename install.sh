@@ -15,33 +15,33 @@ cd /home/bcadmin
 
 # Download and install CCA Disk Image Processor
 echo "Installing Disk Image Processor..."
-git clone https://github.com/CCA-Public/diskimageprocessor
-cd diskimageprocessor && sudo ./install
-cd /home/bcadmin
+git clone https://github.com/CCA-Public/diskimageprocessor && \
+  cd diskimageprocessor && \
+  sudo ./install && \
+  cd /home/bcadmin && \
+  rm -rf diskimageprocessor
 
 # Download and install CCA Folder Processor
 echo "Installing Folder Processor..."
-git clone https://github.com/CCA-Public/folderprocessor
-cd folderprocessor && sudo ./install.sh
-cd /home/bcadmin
+git clone https://github.com/CCA-Public/folderprocessor && \
+  cd folderprocessor && \
+  sudo ./install && \
+  cd /home/bcadmin && \
+  rm -rf folderprocessor
 
 # Download and install CCA SIP Creator
 echo "Installing SIP Creator..."
-git clone https://github.com/CCA-Public/sipcreator
-cd sipcreator && sudo ./install.sh
-cd /home/bcadmin
+git clone https://github.com/CCA-Public/sipcreator && \
+  cd sipcreator && \
+  sudo ./install && \
+  cd /home/bcadmin && \
+  rm -rf sipcreator
 
 # Create /mnt/diskid/ directory for processing UDF and HFS disks with Disk Image Processor
 if [ ! -d /mnt/diskid ]; then
   echo "Creating /mnt/diskid..."
   mkdir /mnt/diskid
 fi
-
-# Cleanup folders
-echo "Cleaning up folders..."
-sudo rm -rf /home/bcadmin/diskimageprocessor
-sudo rm -rf /home/bcadmin/folderprocessor
-sudo rm -rf /home/bcadmin/sipcreator
 
 # Echo done
 echo "Finished! CCA Tools installed and ready to launch from Applications menu."
