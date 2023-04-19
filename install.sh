@@ -20,7 +20,7 @@ git clone https://github.com/CCA-Public/diskimageprocessor && \
   sudo chmod +x install.sh && \
   sudo ./install.sh && \
   cd /home/bcadmin && \
-  rm -rf diskimageprocessor
+  sudo rm -rf diskimageprocessor
 
 # Download and install CCA Folder Processor
 echo "Installing Folder Processor..."
@@ -29,7 +29,7 @@ git clone https://github.com/CCA-Public/folderprocessor && \
   sudo chmod +x install.sh && \
   sudo ./install.sh && \
   cd /home/bcadmin && \
-  rm -rf folderprocessor
+  sudo rm -rf folderprocessor
 
 # Download and install CCA SIP Creator
 echo "Installing SIP Creator..."
@@ -38,7 +38,7 @@ git clone https://github.com/CCA-Public/sipcreator && \
   sudo chmod +x install.sh && \
   sudo ./install.sh && \
   cd /home/bcadmin && \
-  rm -rf sipcreator
+  sudo rm -rf sipcreator
 
 # Create /mnt/diskid/ directory for processing UDF and HFS disks with Disk Image Processor
 if [ ! -d /mnt/diskid ]; then
