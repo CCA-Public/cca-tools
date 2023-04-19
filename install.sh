@@ -17,7 +17,7 @@ cd /home/bcadmin
 echo "Installing Disk Image Processor..."
 git clone https://github.com/CCA-Public/diskimageprocessor && \
   cd diskimageprocessor && \
-  sudo ./install && \
+  sudo ./install.sh && \
   cd /home/bcadmin && \
   rm -rf diskimageprocessor
 
@@ -25,7 +25,7 @@ git clone https://github.com/CCA-Public/diskimageprocessor && \
 echo "Installing Folder Processor..."
 git clone https://github.com/CCA-Public/folderprocessor && \
   cd folderprocessor && \
-  sudo ./install && \
+  sudo ./install.sh && \
   cd /home/bcadmin && \
   rm -rf folderprocessor
 
@@ -33,7 +33,7 @@ git clone https://github.com/CCA-Public/folderprocessor && \
 echo "Installing SIP Creator..."
 git clone https://github.com/CCA-Public/sipcreator && \
   cd sipcreator && \
-  sudo ./install && \
+  sudo ./install.sh && \
   cd /home/bcadmin && \
   rm -rf sipcreator
 
